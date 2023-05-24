@@ -1,0 +1,32 @@
+{
+  "name": "git",
+  "version": "1.0.0",
+  "description": "HTML/CSS/JS",
+  "main": "scripts/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "sass --watch scss/style.scss css/style.css",
+    "serve": "serve",
+    "start": "npm-run-all --parallel serve watch-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Innochka1111/kinozal.git"
+  },
+  "keywords": [
+    "HTML.",
+    "CSS.",
+    "JS"
+  ],
+  "author": "Inna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Innochka1111/kinozal/issues"
+  },
+  "homepage": "https://github.com/Innochka1111/kinozal#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.62.1",
+    "serve": "^14.2.0"
+  }
+}

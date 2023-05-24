@@ -165,11 +165,11 @@ body {
     height: fit-content;
   }
   .sort .sort__label,
-.sort .sort__item {
+  .sort .sort__item {
     display: none;
   }
   .sort.open .sort__label,
-.sort.open .sort__item {
+  .sort.open .sort__item {
     display: block;
     width: 100%;
     padding: 0%;
